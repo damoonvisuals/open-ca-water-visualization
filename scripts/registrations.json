@@ -1,0 +1,393 @@
+{
+  "description": "Manually identified landmarks in 1.2x PDF page renders (951 \u00d7 735 pixels). Approximate WGS84 longitude/latitude. EPSG:5070 is a working registration projection, not a claim about the PDF's original CRS.",
+  "pages": {
+    "14": [
+      [
+        216,
+        108,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        374,
+        384,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        566,
+        424,
+        -109.045,
+        37,
+        "Four Corners"
+      ],
+      [
+        518,
+        218,
+        -111.046,
+        41,
+        "UT/WY corner"
+      ]
+    ],
+    "15": [
+      [
+        403,
+        573,
+        -119.019,
+        35.373,
+        "Bakersfield marker"
+      ],
+      [
+        450,
+        101,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        417,
+        315,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        281,
+        344,
+        -122.78,
+        38.97,
+        "Clear Lake"
+      ]
+    ],
+    "16": [
+      [
+        202,
+        105,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        364,
+        384,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        558,
+        424,
+        -109.045,
+        37,
+        "Four Corners"
+      ],
+      [
+        507,
+        218,
+        -111.046,
+        41,
+        "UT/WY corner"
+      ]
+    ],
+    "17": [
+      [
+        272,
+        455,
+        -121.988,
+        37.548,
+        "Fremont marker"
+      ],
+      [
+        477,
+        110,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        431,
+        377,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ]
+    ],
+    "18": [
+      [
+        204,
+        400,
+        -119.787,
+        36.738,
+        "Fresno marker"
+      ],
+      [
+        245,
+        319,
+        -119.705,
+        37.0,
+        "Millerton diversion"
+      ],
+      [
+        298,
+        415,
+        -119.325,
+        36.832,
+        "Pine Flat diversion"
+      ],
+      [
+        572,
+        154,
+        -118.735,
+        37.605,
+        "Crowley Lake"
+      ]
+    ],
+    "19": [
+      [
+        387,
+        86,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        361,
+        242,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        558,
+        391,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        506,
+        113,
+        -117,
+        42,
+        "NV/ID/OR corner"
+      ]
+    ],
+    "20": "16",
+    "21": [
+      [
+        150,
+        334,
+        -120.997,
+        37.639,
+        "Modesto marker"
+      ],
+      [
+        230,
+        120,
+        -120.52,
+        37.98,
+        "New Melones Lake"
+      ],
+      [
+        347,
+        403,
+        -120.28,
+        37.59,
+        "Lake McClure"
+      ],
+      [
+        325,
+        340,
+        -120.42,
+        37.69,
+        "Don Pedro Reservoir"
+      ]
+    ],
+    "22": "16",
+    "23": [
+      [
+        143,
+        327,
+        -122.271,
+        37.804,
+        "Oakland marker"
+      ],
+      [
+        635,
+        153,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        297,
+        570,
+        -121.06,
+        37.06,
+        "San Luis Reservoir"
+      ],
+      [
+        213,
+        141,
+        -122.23,
+        38.59,
+        "Lake Berryessa"
+      ]
+    ],
+    "24": [
+      [
+        288,
+        547,
+        -121.494,
+        38.582,
+        "Sacramento marker"
+      ],
+      [
+        451,
+        527,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        516,
+        129,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        181,
+        450,
+        -122.78,
+        38.97,
+        "Clear Lake"
+      ]
+    ],
+    "25": [
+      [
+        206,
+        356,
+        -117.289,
+        34.108,
+        "San Bernardino marker"
+      ],
+      [
+        220,
+        159,
+        -117.32,
+        34.3,
+        "Silverwood Lake"
+      ],
+      [
+        330,
+        218,
+        -117.19,
+        34.26,
+        "Lake Arrowhead"
+      ],
+      [
+        530,
+        274,
+        -116.97,
+        34.245,
+        "Big Bear Lake"
+      ]
+    ],
+    "26": "16",
+    "27": [
+      [
+        96,
+        230,
+        -122.419,
+        37.775,
+        "San Francisco marker"
+      ],
+      [
+        591,
+        70,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        272,
+        464,
+        -121.06,
+        37.06,
+        "San Luis Reservoir"
+      ],
+      [
+        186,
+        62,
+        -122.23,
+        38.59,
+        "Lake Berryessa"
+      ]
+    ],
+    "28": "17",
+    "29": "19",
+    "30": [
+      [
+        357,
+        404,
+        -122.714,
+        38.44,
+        "Santa Rosa marker"
+      ],
+      [
+        475,
+        397,
+        -122.23,
+        38.59,
+        "Lake Berryessa"
+      ],
+      [
+        390,
+        224,
+        -122.76,
+        39.02,
+        "Clear Lake"
+      ],
+      [
+        414,
+        93,
+        -122.96,
+        39.41,
+        "Lake Pillsbury"
+      ]
+    ],
+    "31": [
+      [
+        173,
+        353,
+        -121.29,
+        37.958,
+        "Stockton marker"
+      ],
+      [
+        626,
+        70,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        302,
+        80,
+        -121.14,
+        38.71,
+        "Folsom Lake"
+      ],
+      [
+        273,
+        402,
+        -120.93,
+        37.83,
+        "Woodward Reservoir"
+      ]
+    ]
+  }
+}

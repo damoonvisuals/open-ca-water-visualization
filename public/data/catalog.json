@@ -1,0 +1,671 @@
+{
+  "title": "California Water Atlas",
+  "report": {
+    "title": "Where Does California’s Water Come From?",
+    "subtitle": "Land conservation and the watersheds that supply California’s drinking water",
+    "authors": [
+      "Kirk Klausmeyer",
+      "Katherine Fitzgerald"
+    ],
+    "publisher": "The Nature Conservancy of California",
+    "date": "October 2012",
+    "version": "1.1",
+    "url": "report.pdf",
+    "methodPages": [
+      11,
+      12,
+      13
+    ],
+    "appendixPages": [
+      14,
+      31
+    ],
+    "sourceDataPage": 32
+  },
+  "scope": "Historical surface drinking-water source watersheds, including standby sources, plus the service areas and aqueducts drawn in the appendix. Not groundwater basins, current utility boundaries, current supply mixes, or water-quality measurements.",
+  "approximation": "Protection and land-use regions, service areas, aqueduct routes, and printed direction symbols are reconstructed from the appendix artwork. Boundaries retain small patches and interior holes, but color classification and manual georeferencing remain approximate. These are historical map reconstructions, not current GIS or operational flow data.",
+  "methodology": [
+    {
+      "title": "Find the drinking-water sources",
+      "text": "The authors systematically reviewed California Department of Public Health DWSAP source assessments, supplemented them with city and water-provider reports, and matched diversion names to GIS datasets.",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "title": "Trace water upstream",
+      "text": "In ArcGIS 10.0 they built a geometric network from NHDPlus flowlines, traced upstream from each diversion, and selected the associated subwatersheds. Appendix B identifies NHDPlus at 1:100,000, NHD at 1:24,000, HUC12 Watershed Boundary Dataset, and the June 2011 California fish-passage database among the inputs.",
+      "pages": [
+        11,
+        32
+      ]
+    },
+    {
+      "title": "Connect watersheds to cities",
+      "text": "Federal, state, and private water-district service areas linked cities to diverters and source watersheds. The city selection and population estimates used the 2010 census. The 17 city/group maps collectively represent 30 cities; the separate statewide overview is broader.",
+      "pages": [
+        6,
+        11
+      ]
+    },
+    {
+      "title": "Describe land use and protection",
+      "text": "The maps combine the 2010 Protected Areas Database of the U.S. with 2006 National Land Cover Database information. GAP 1–2 became highest protection and GAP 3 became some protection. No known protection does not mean unprotected: district lands and private easements may be missing.",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    {
+      "title": "Reconstruct this interactive atlas",
+      "text": "Each appendix page is rendered at 2.5× PDF size. Vector text is removed for land-use classification so labels are not mistaken for developed land. The three green classes are separated in Lab color space; neutral agricultural/developed pixels are restricted to source-water areas. Pink service regions and red aqueducts are traced separately. Class polygons retain interior holes, use a 0.4-pixel simplification tolerance, and retain regions of at least two rendered square pixels. Aqueduct centerlines are skeletonized without joining unobserved gaps; red direction glyphs are preserved from the original render. Manually registered landmarks transform the result through EPSG:5070 to WGS84. Vertex order does not encode flow, and the original GIS data is not recovered.",
+      "pages": [
+        14,
+        31
+      ]
+    }
+  ],
+  "limitations": [
+    "This is a 2012 snapshot; water suppliers, sources, and operations may have changed.",
+    "The maps identify possible contributing source areas, including standby sources. They do not quantify how much water a city receives from each source.",
+    "Interactive colors follow the original legend, including protection/land use, pink service areas, and red aqueducts. Classification is inferred from raster colors; JPEG artifacts, hillshade, map symbols, and thin linework can cause omissions or misclassification. Flow arrows reproduce printed directions, not live operations.",
+    "The 17 city/group footprints are extracted separately. Shared boundaries may differ slightly because the original images have different extents and resolutions.",
+    "Georeferencing residuals measure agreement with approximate control points, not real-world accuracy. These outlines are for regional exploration, not parcel or engineering decisions."
+  ],
+  "basemap": {
+    "provider": "Natural Earth",
+    "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "license": "Public domain",
+    "source": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_1_states_provinces.geojson",
+    "processing": "USA, Canada and Mexico administrative regions, simplified with 0.025-degree tolerance."
+  },
+  "maps": [
+    {
+      "id": "california",
+      "page": 14,
+      "name": "California overview",
+      "cities": [],
+      "region": "Statewide",
+      "sources": [
+        "Statewide surface-water sources"
+      ],
+      "description": "The report’s statewide map combines the surface-water source watersheds serving approximately 80% of California residents. Its coverage is broader than the 30-city appendix selection.",
+      "image": "appendix/page-14.webp",
+      "originalInferenceNoted": true,
+      "layers": "data/maps/page-14.geojson",
+      "tracing": "appendix/tracing-14.webp"
+    },
+    {
+      "id": "bakersfield",
+      "page": 15,
+      "name": "Bakersfield",
+      "cities": [
+        "Bakersfield"
+      ],
+      "region": "Central Valley",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Kern River"
+      ],
+      "description": "The map combines the large northern California source area with a separate Kern River watershed in the southern Sierra Nevada.",
+      "image": "appendix/page-15.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-15.geojson",
+      "tracing": "appendix/tracing-15.webp"
+    },
+    {
+      "id": "chula-vista",
+      "page": 16,
+      "name": "Chula Vista",
+      "cities": [
+        "Chula Vista"
+      ],
+      "region": "Southern California",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Colorado River",
+        "Local San Diego County sources"
+      ],
+      "description": "Imported sources span northern California and the Colorado River basin. Small local source areas are visible near Chula Vista.",
+      "image": "appendix/page-16.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-16.geojson",
+      "tracing": "appendix/tracing-16.webp"
+    },
+    {
+      "id": "fremont",
+      "page": 17,
+      "name": "Fremont",
+      "cities": [
+        "Fremont"
+      ],
+      "region": "Bay Area",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Local Bay Area sources"
+      ],
+      "description": "The northern California watershed is accompanied by small source areas around the southern San Francisco Bay.",
+      "image": "appendix/page-17.webp",
+      "originalInferenceNoted": true,
+      "layers": "data/maps/page-17.geojson",
+      "tracing": "appendix/tracing-17.webp"
+    },
+    {
+      "id": "fresno",
+      "page": 18,
+      "name": "Fresno",
+      "cities": [
+        "Fresno"
+      ],
+      "region": "Central Valley",
+      "sources": [
+        "San Joaquin River",
+        "Kings River"
+      ],
+      "description": "Two neighboring Sierra Nevada river systems supply the surface-water source area shown northeast of Fresno.",
+      "image": "appendix/page-18.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-18.geojson",
+      "tracing": "appendix/tracing-18.webp"
+    },
+    {
+      "id": "inland-empire",
+      "page": 19,
+      "name": "Inland Empire cities",
+      "cities": [
+        "Fontana",
+        "Ontario",
+        "Rancho Cucamonga"
+      ],
+      "region": "Southern California",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Southern California source area"
+      ],
+      "description": "One shared map represents Fontana, Ontario, and Rancho Cucamonga. The report groups these cities under the Cucamonga Valley Water District; this is a historical grouping.",
+      "image": "appendix/page-19.webp",
+      "originalInferenceNoted": true,
+      "layers": "data/maps/page-19.geojson",
+      "tracing": "appendix/tracing-19.webp"
+    },
+    {
+      "id": "los-angeles",
+      "page": 20,
+      "name": "Los Angeles",
+      "cities": [
+        "Los Angeles"
+      ],
+      "region": "Southern California",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Colorado River",
+        "Owens River"
+      ],
+      "description": "Los Angeles has the largest contributing watershed area discussed in the report. The appendix includes the Owens River system in addition to the shared imported sources.",
+      "image": "appendix/page-20.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-20.geojson",
+      "tracing": "appendix/tracing-20.webp"
+    },
+    {
+      "id": "modesto",
+      "page": 21,
+      "name": "Modesto",
+      "cities": [
+        "Modesto"
+      ],
+      "region": "Central Valley",
+      "sources": [
+        "Tuolumne River"
+      ],
+      "description": "The map follows the Tuolumne system from the Sierra Nevada toward Modesto, with a source area extending farther downstream than the San Francisco map.",
+      "image": "appendix/page-21.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-21.geojson",
+      "tracing": "appendix/tracing-21.webp"
+    },
+    {
+      "id": "mwd",
+      "page": 22,
+      "name": "Metropolitan Water District cities",
+      "cities": [
+        "Anaheim",
+        "Garden Grove",
+        "Glendale",
+        "Huntington Beach",
+        "Irvine",
+        "Long Beach",
+        "Moreno Valley",
+        "Oceanside",
+        "Oxnard",
+        "Pomona",
+        "Riverside",
+        "Santa Ana"
+      ],
+      "region": "Southern California",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Colorado River"
+      ],
+      "description": "This single appendix map represents 12 cities. Their common source footprint is preserved as one group rather than inventing separate city watershed boundaries.",
+      "image": "appendix/page-22.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-22.geojson",
+      "tracing": "appendix/tracing-22.webp"
+    },
+    {
+      "id": "oakland",
+      "page": 23,
+      "name": "Oakland",
+      "cities": [
+        "Oakland"
+      ],
+      "region": "Bay Area",
+      "sources": [
+        "Mokelumne River",
+        "Local East Bay sources"
+      ],
+      "description": "The map shows a distant Sierra Nevada source watershed on the Mokelumne River and smaller local watersheds in the East Bay.",
+      "image": "appendix/page-23.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-23.geojson",
+      "tracing": "appendix/tracing-23.webp"
+    },
+    {
+      "id": "sacramento",
+      "page": 24,
+      "name": "Sacramento",
+      "cities": [
+        "Sacramento"
+      ],
+      "region": "Central Valley",
+      "sources": [
+        "Sacramento River",
+        "American River",
+        "Trinity River"
+      ],
+      "description": "The watershed stretches north through the Sacramento River basin and east into the American River headwaters. The map also labels the Trinity River transfer.",
+      "image": "appendix/page-24.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-24.geojson",
+      "tracing": "appendix/tracing-24.webp"
+    },
+    {
+      "id": "san-bernardino",
+      "page": 25,
+      "name": "San Bernardino",
+      "cities": [
+        "San Bernardino"
+      ],
+      "region": "Southern California",
+      "sources": [
+        "Big Bear area / Santa Ana River"
+      ],
+      "description": "The small surface-water watershed shown around Big Bear contrasts with the much larger imported-water footprints. The report notes that most of San Bernardino’s water came from groundwater, which is outside this map’s scope.",
+      "image": "appendix/page-25.webp",
+      "originalInferenceNoted": true,
+      "layers": "data/maps/page-25.geojson",
+      "tracing": "appendix/tracing-25.webp"
+    },
+    {
+      "id": "san-diego",
+      "page": 26,
+      "name": "San Diego",
+      "cities": [
+        "San Diego"
+      ],
+      "region": "Southern California",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Colorado River",
+        "Local San Diego County sources"
+      ],
+      "description": "The map adds small local catchments near San Diego to the extensive northern California and Colorado River source areas.",
+      "image": "appendix/page-26.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-26.geojson",
+      "tracing": "appendix/tracing-26.webp"
+    },
+    {
+      "id": "san-francisco",
+      "page": 27,
+      "name": "San Francisco",
+      "cities": [
+        "San Francisco"
+      ],
+      "region": "Bay Area",
+      "sources": [
+        "Upper Tuolumne River",
+        "Local Peninsula and East Bay sources"
+      ],
+      "description": "The map shows the upper Tuolumne watershed in the Sierra Nevada and smaller local source areas on the Peninsula and in the East Bay.",
+      "image": "appendix/page-27.webp",
+      "originalInferenceNoted": true,
+      "layers": "data/maps/page-27.geojson",
+      "tracing": "appendix/tracing-27.webp"
+    },
+    {
+      "id": "san-jose",
+      "page": 28,
+      "name": "San Jose",
+      "cities": [
+        "San Jose"
+      ],
+      "region": "Bay Area",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Local South Bay sources"
+      ],
+      "description": "The map combines the extensive northern California source watershed with local watersheds in and around the Santa Clara Valley.",
+      "image": "appendix/page-28.webp",
+      "originalInferenceNoted": true,
+      "layers": "data/maps/page-28.geojson",
+      "tracing": "appendix/tracing-28.webp"
+    },
+    {
+      "id": "santa-clarita",
+      "page": 29,
+      "name": "Santa Clarita",
+      "cities": [
+        "Santa Clarita"
+      ],
+      "region": "Southern California",
+      "sources": [
+        "Sacramento–San Joaquin Delta",
+        "Trinity River",
+        "Southern California source area"
+      ],
+      "description": "The appendix shows northern California source watersheds and a small southern source area connected by the aqueduct system.",
+      "image": "appendix/page-29.webp",
+      "originalInferenceNoted": true,
+      "layers": "data/maps/page-29.geojson",
+      "tracing": "appendix/tracing-29.webp"
+    },
+    {
+      "id": "santa-rosa",
+      "page": 30,
+      "name": "Santa Rosa",
+      "cities": [
+        "Santa Rosa"
+      ],
+      "region": "North Coast",
+      "sources": [
+        "Russian River",
+        "Eel River"
+      ],
+      "description": "The source area follows the Russian River and includes an upper Eel River source area associated with an interbasin transfer.",
+      "image": "appendix/page-30.webp",
+      "originalInferenceNoted": true,
+      "layers": "data/maps/page-30.geojson",
+      "tracing": "appendix/tracing-30.webp"
+    },
+    {
+      "id": "stockton",
+      "page": 31,
+      "name": "Stockton",
+      "cities": [
+        "Stockton"
+      ],
+      "region": "Central Valley",
+      "sources": [
+        "Calaveras River",
+        "Stanislaus River"
+      ],
+      "description": "The source watersheds extend east from Stockton into the Sierra Nevada along the Calaveras and Stanislaus systems.",
+      "image": "appendix/page-31.webp",
+      "originalInferenceNoted": false,
+      "layers": "data/maps/page-31.geojson",
+      "tracing": "appendix/tracing-31.webp"
+    }
+  ],
+  "cities": [
+    {
+      "name": "Bakersfield",
+      "coordinates": [
+        -119.019,
+        35.373
+      ],
+      "mapId": "bakersfield"
+    },
+    {
+      "name": "Chula Vista",
+      "coordinates": [
+        -117.084,
+        32.64
+      ],
+      "mapId": "chula-vista"
+    },
+    {
+      "name": "Fremont",
+      "coordinates": [
+        -121.988,
+        37.548
+      ],
+      "mapId": "fremont"
+    },
+    {
+      "name": "Fresno",
+      "coordinates": [
+        -119.787,
+        36.738
+      ],
+      "mapId": "fresno"
+    },
+    {
+      "name": "Fontana",
+      "coordinates": [
+        -117.435,
+        34.092
+      ],
+      "mapId": "inland-empire"
+    },
+    {
+      "name": "Ontario",
+      "coordinates": [
+        -117.651,
+        34.063
+      ],
+      "mapId": "inland-empire"
+    },
+    {
+      "name": "Rancho Cucamonga",
+      "coordinates": [
+        -117.593,
+        34.107
+      ],
+      "mapId": "inland-empire"
+    },
+    {
+      "name": "Los Angeles",
+      "coordinates": [
+        -118.244,
+        34.052
+      ],
+      "mapId": "los-angeles"
+    },
+    {
+      "name": "Modesto",
+      "coordinates": [
+        -120.997,
+        37.639
+      ],
+      "mapId": "modesto"
+    },
+    {
+      "name": "Anaheim",
+      "coordinates": [
+        -117.914,
+        33.836
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Garden Grove",
+      "coordinates": [
+        -117.941,
+        33.774
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Glendale",
+      "coordinates": [
+        -118.255,
+        34.142
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Huntington Beach",
+      "coordinates": [
+        -117.999,
+        33.66
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Irvine",
+      "coordinates": [
+        -117.827,
+        33.684
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Long Beach",
+      "coordinates": [
+        -118.193,
+        33.77
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Moreno Valley",
+      "coordinates": [
+        -117.23,
+        33.942
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Oceanside",
+      "coordinates": [
+        -117.379,
+        33.195
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Oxnard",
+      "coordinates": [
+        -119.177,
+        34.197
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Pomona",
+      "coordinates": [
+        -117.75,
+        34.056
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Riverside",
+      "coordinates": [
+        -117.396,
+        33.953
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Santa Ana",
+      "coordinates": [
+        -117.868,
+        33.745
+      ],
+      "mapId": "mwd"
+    },
+    {
+      "name": "Oakland",
+      "coordinates": [
+        -122.271,
+        37.804
+      ],
+      "mapId": "oakland"
+    },
+    {
+      "name": "Sacramento",
+      "coordinates": [
+        -121.494,
+        38.582
+      ],
+      "mapId": "sacramento"
+    },
+    {
+      "name": "San Bernardino",
+      "coordinates": [
+        -117.289,
+        34.108
+      ],
+      "mapId": "san-bernardino"
+    },
+    {
+      "name": "San Diego",
+      "coordinates": [
+        -117.161,
+        32.716
+      ],
+      "mapId": "san-diego"
+    },
+    {
+      "name": "San Francisco",
+      "coordinates": [
+        -122.419,
+        37.775
+      ],
+      "mapId": "san-francisco"
+    },
+    {
+      "name": "San Jose",
+      "coordinates": [
+        -121.886,
+        37.338
+      ],
+      "mapId": "san-jose"
+    },
+    {
+      "name": "Santa Clarita",
+      "coordinates": [
+        -118.543,
+        34.391
+      ],
+      "mapId": "santa-clarita"
+    },
+    {
+      "name": "Santa Rosa",
+      "coordinates": [
+        -122.714,
+        38.44
+      ],
+      "mapId": "santa-rosa"
+    },
+    {
+      "name": "Stockton",
+      "coordinates": [
+        -121.29,
+        37.958
+      ],
+      "mapId": "stockton"
+    }
+  ]
+}

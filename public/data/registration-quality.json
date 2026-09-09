@@ -1,0 +1,1324 @@
+[
+  {
+    "page": 14,
+    "components": 81,
+    "controlPoints": [
+      [
+        216,
+        108,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        374,
+        384,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        566,
+        424,
+        -109.045,
+        37,
+        "Four Corners"
+      ],
+      [
+        518,
+        218,
+        -111.046,
+        41,
+        "UT/WY corner"
+      ]
+    ],
+    "fitResidualMeters": [
+      5583,
+      8446,
+      9787,
+      6924
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 2720,
+        "classifiedPixels": 97441
+      },
+      "some": {
+        "polygons": 950,
+        "classifiedPixels": 222079
+      },
+      "none": {
+        "polygons": 2022,
+        "classifiedPixels": 94527
+      },
+      "agricultural": {
+        "polygons": 248,
+        "classifiedPixels": 8533
+      },
+      "developed": {
+        "polygons": 22,
+        "classifiedPixels": 487
+      },
+      "aqueduct": {
+        "polygons": 165,
+        "classifiedPixels": 4772
+      },
+      "delta": {
+        "polygons": 5,
+        "classifiedPixels": 91
+      }
+    },
+    "routeSegments": 127,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 15,
+    "components": 51,
+    "controlPoints": [
+      [
+        403,
+        573,
+        -119.019,
+        35.373,
+        "Bakersfield marker"
+      ],
+      [
+        450,
+        101,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        417,
+        315,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        281,
+        344,
+        -122.78,
+        38.97,
+        "Clear Lake"
+      ]
+    ],
+    "fitResidualMeters": [
+      5013,
+      6177,
+      12173,
+      983
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 747,
+        "classifiedPixels": 34070
+      },
+      "some": {
+        "polygons": 227,
+        "classifiedPixels": 55652
+      },
+      "none": {
+        "polygons": 559,
+        "classifiedPixels": 56927
+      },
+      "agricultural": {
+        "polygons": 205,
+        "classifiedPixels": 13892
+      },
+      "developed": {
+        "polygons": 33,
+        "classifiedPixels": 1142
+      },
+      "service": {
+        "polygons": 25,
+        "classifiedPixels": 514
+      },
+      "aqueduct": {
+        "polygons": 11,
+        "classifiedPixels": 6040
+      },
+      "delta": {
+        "polygons": 13,
+        "classifiedPixels": 146
+      }
+    },
+    "routeSegments": 26,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 16,
+    "components": 50,
+    "controlPoints": [
+      [
+        202,
+        105,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        364,
+        384,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        558,
+        424,
+        -109.045,
+        37,
+        "Four Corners"
+      ],
+      [
+        507,
+        218,
+        -111.046,
+        41,
+        "UT/WY corner"
+      ]
+    ],
+    "fitResidualMeters": [
+      4907,
+      7383,
+      8641,
+      6164
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 2679,
+        "classifiedPixels": 85113
+      },
+      "some": {
+        "polygons": 946,
+        "classifiedPixels": 199856
+      },
+      "none": {
+        "polygons": 2066,
+        "classifiedPixels": 82777
+      },
+      "agricultural": {
+        "polygons": 150,
+        "classifiedPixels": 5408
+      },
+      "developed": {
+        "polygons": 16,
+        "classifiedPixels": 388
+      },
+      "service": {
+        "polygons": 33,
+        "classifiedPixels": 9279
+      },
+      "aqueduct": {
+        "polygons": 10,
+        "classifiedPixels": 6952
+      },
+      "delta": {
+        "polygons": 7,
+        "classifiedPixels": 94
+      }
+    },
+    "routeSegments": 32,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 17,
+    "components": 55,
+    "controlPoints": [
+      [
+        272,
+        455,
+        -121.988,
+        37.548,
+        "Fremont marker"
+      ],
+      [
+        477,
+        110,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        431,
+        377,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ]
+    ],
+    "fitResidualMeters": [
+      0,
+      0,
+      0
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 976,
+        "classifiedPixels": 44375
+      },
+      "some": {
+        "polygons": 307,
+        "classifiedPixels": 82968
+      },
+      "none": {
+        "polygons": 655,
+        "classifiedPixels": 89473
+      },
+      "agricultural": {
+        "polygons": 251,
+        "classifiedPixels": 24185
+      },
+      "developed": {
+        "polygons": 58,
+        "classifiedPixels": 1835
+      },
+      "service": {
+        "polygons": 4,
+        "classifiedPixels": 106
+      },
+      "aqueduct": {
+        "polygons": 7,
+        "classifiedPixels": 1194
+      },
+      "delta": {
+        "polygons": 7,
+        "classifiedPixels": 139
+      }
+    },
+    "routeSegments": 13,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 18,
+    "components": 16,
+    "controlPoints": [
+      [
+        204,
+        400,
+        -119.787,
+        36.738,
+        "Fresno marker"
+      ],
+      [
+        245,
+        319,
+        -119.705,
+        37.0,
+        "Millerton diversion"
+      ],
+      [
+        298,
+        415,
+        -119.325,
+        36.832,
+        "Pine Flat diversion"
+      ],
+      [
+        572,
+        154,
+        -118.735,
+        37.605,
+        "Crowley Lake"
+      ]
+    ],
+    "fitResidualMeters": [
+      4935,
+      3522,
+      2425,
+      1012
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 216,
+        "classifiedPixels": 216392
+      },
+      "some": {
+        "polygons": 90,
+        "classifiedPixels": 137847
+      },
+      "none": {
+        "polygons": 195,
+        "classifiedPixels": 35178
+      },
+      "agricultural": {
+        "polygons": 38,
+        "classifiedPixels": 858
+      },
+      "service": {
+        "polygons": 25,
+        "classifiedPixels": 48818
+      },
+      "aqueduct": {
+        "polygons": 3,
+        "classifiedPixels": 3867
+      }
+    },
+    "routeSegments": 17,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 19,
+    "components": 31,
+    "controlPoints": [
+      [
+        387,
+        86,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        361,
+        242,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        558,
+        391,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        506,
+        113,
+        -117,
+        42,
+        "NV/ID/OR corner"
+      ]
+    ],
+    "fitResidualMeters": [
+      15341,
+      10336,
+      6286,
+      11291
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 482,
+        "classifiedPixels": 16109
+      },
+      "some": {
+        "polygons": 161,
+        "classifiedPixels": 26077
+      },
+      "none": {
+        "polygons": 362,
+        "classifiedPixels": 28045
+      },
+      "agricultural": {
+        "polygons": 112,
+        "classifiedPixels": 5784
+      },
+      "developed": {
+        "polygons": 12,
+        "classifiedPixels": 355
+      },
+      "service": {
+        "polygons": 16,
+        "classifiedPixels": 355
+      },
+      "aqueduct": {
+        "polygons": 7,
+        "classifiedPixels": 3622
+      },
+      "delta": {
+        "polygons": 7,
+        "classifiedPixels": 89
+      }
+    },
+    "routeSegments": 18,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 20,
+    "components": 49,
+    "controlPoints": [
+      [
+        202,
+        105,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        364,
+        384,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        558,
+        424,
+        -109.045,
+        37,
+        "Four Corners"
+      ],
+      [
+        507,
+        218,
+        -111.046,
+        41,
+        "UT/WY corner"
+      ]
+    ],
+    "fitResidualMeters": [
+      4907,
+      7383,
+      8641,
+      6164
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 1904,
+        "classifiedPixels": 88397
+      },
+      "some": {
+        "polygons": 531,
+        "classifiedPixels": 235923
+      },
+      "none": {
+        "polygons": 1398,
+        "classifiedPixels": 86965
+      },
+      "agricultural": {
+        "polygons": 198,
+        "classifiedPixels": 6681
+      },
+      "developed": {
+        "polygons": 19,
+        "classifiedPixels": 489
+      },
+      "service": {
+        "polygons": 36,
+        "classifiedPixels": 10033
+      },
+      "aqueduct": {
+        "polygons": 14,
+        "classifiedPixels": 7742
+      },
+      "delta": {
+        "polygons": 10,
+        "classifiedPixels": 96
+      }
+    },
+    "routeSegments": 36,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 21,
+    "components": 5,
+    "controlPoints": [
+      [
+        150,
+        334,
+        -120.997,
+        37.639,
+        "Modesto marker"
+      ],
+      [
+        230,
+        120,
+        -120.52,
+        37.98,
+        "New Melones Lake"
+      ],
+      [
+        347,
+        403,
+        -120.28,
+        37.59,
+        "Lake McClure"
+      ],
+      [
+        325,
+        340,
+        -120.42,
+        37.69,
+        "Don Pedro Reservoir"
+      ]
+    ],
+    "fitResidualMeters": [
+      129,
+      1229,
+      4279,
+      5378
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 185,
+        "classifiedPixels": 104024
+      },
+      "some": {
+        "polygons": 106,
+        "classifiedPixels": 61674
+      },
+      "none": {
+        "polygons": 202,
+        "classifiedPixels": 32963
+      },
+      "agricultural": {
+        "polygons": 42,
+        "classifiedPixels": 1098
+      },
+      "developed": {
+        "polygons": 1,
+        "classifiedPixels": 35
+      },
+      "service": {
+        "polygons": 12,
+        "classifiedPixels": 16261
+      },
+      "aqueduct": {
+        "polygons": 2,
+        "classifiedPixels": 2916
+      }
+    },
+    "routeSegments": 11,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 22,
+    "components": 33,
+    "controlPoints": [
+      [
+        202,
+        105,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        364,
+        384,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        558,
+        424,
+        -109.045,
+        37,
+        "Four Corners"
+      ],
+      [
+        507,
+        218,
+        -111.046,
+        41,
+        "UT/WY corner"
+      ]
+    ],
+    "fitResidualMeters": [
+      4907,
+      7383,
+      8641,
+      6164
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 2300,
+        "classifiedPixels": 89973
+      },
+      "some": {
+        "polygons": 649,
+        "classifiedPixels": 221042
+      },
+      "none": {
+        "polygons": 1532,
+        "classifiedPixels": 85618
+      },
+      "agricultural": {
+        "polygons": 153,
+        "classifiedPixels": 5746
+      },
+      "developed": {
+        "polygons": 19,
+        "classifiedPixels": 447
+      },
+      "service": {
+        "polygons": 30,
+        "classifiedPixels": 5536
+      },
+      "aqueduct": {
+        "polygons": 9,
+        "classifiedPixels": 5408
+      },
+      "delta": {
+        "polygons": 6,
+        "classifiedPixels": 82
+      }
+    },
+    "routeSegments": 21,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 23,
+    "components": 8,
+    "controlPoints": [
+      [
+        143,
+        327,
+        -122.271,
+        37.804,
+        "Oakland marker"
+      ],
+      [
+        635,
+        153,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        297,
+        570,
+        -121.06,
+        37.06,
+        "San Luis Reservoir"
+      ],
+      [
+        213,
+        141,
+        -122.23,
+        38.59,
+        "Lake Berryessa"
+      ]
+    ],
+    "fitResidualMeters": [
+      395,
+      100,
+      174,
+      321
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 98,
+        "classifiedPixels": 8751
+      },
+      "some": {
+        "polygons": 59,
+        "classifiedPixels": 14760
+      },
+      "none": {
+        "polygons": 97,
+        "classifiedPixels": 10619
+      },
+      "agricultural": {
+        "polygons": 8,
+        "classifiedPixels": 186
+      },
+      "developed": {
+        "polygons": 3,
+        "classifiedPixels": 105
+      },
+      "service": {
+        "polygons": 18,
+        "classifiedPixels": 17442
+      },
+      "aqueduct": {
+        "polygons": 16,
+        "classifiedPixels": 3670
+      }
+    },
+    "routeSegments": 18,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 24,
+    "components": 17,
+    "controlPoints": [
+      [
+        288,
+        547,
+        -121.494,
+        38.582,
+        "Sacramento marker"
+      ],
+      [
+        451,
+        527,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        516,
+        129,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        181,
+        450,
+        -122.78,
+        38.97,
+        "Clear Lake"
+      ]
+    ],
+    "fitResidualMeters": [
+      5740,
+      3412,
+      916,
+      3245
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 1165,
+        "classifiedPixels": 44574
+      },
+      "some": {
+        "polygons": 339,
+        "classifiedPixels": 157910
+      },
+      "none": {
+        "polygons": 884,
+        "classifiedPixels": 122410
+      },
+      "agricultural": {
+        "polygons": 188,
+        "classifiedPixels": 27647
+      },
+      "developed": {
+        "polygons": 46,
+        "classifiedPixels": 2168
+      },
+      "service": {
+        "polygons": 12,
+        "classifiedPixels": 795
+      },
+      "aqueduct": {
+        "polygons": 3,
+        "classifiedPixels": 588
+      }
+    },
+    "routeSegments": 6,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 25,
+    "components": 15,
+    "controlPoints": [
+      [
+        206,
+        356,
+        -117.289,
+        34.108,
+        "San Bernardino marker"
+      ],
+      [
+        220,
+        159,
+        -117.32,
+        34.3,
+        "Silverwood Lake"
+      ],
+      [
+        330,
+        218,
+        -117.19,
+        34.26,
+        "Lake Arrowhead"
+      ],
+      [
+        530,
+        274,
+        -116.97,
+        34.245,
+        "Big Bear Lake"
+      ]
+    ],
+    "fitResidualMeters": [
+      23,
+      144,
+      260,
+      93
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 201,
+        "classifiedPixels": 9130
+      },
+      "some": {
+        "polygons": 31,
+        "classifiedPixels": 58738
+      },
+      "none": {
+        "polygons": 173,
+        "classifiedPixels": 5344
+      },
+      "agricultural": {
+        "polygons": 65,
+        "classifiedPixels": 1237
+      },
+      "developed": {
+        "polygons": 46,
+        "classifiedPixels": 7961
+      },
+      "service": {
+        "polygons": 51,
+        "classifiedPixels": 20838
+      },
+      "aqueduct": {
+        "polygons": 50,
+        "classifiedPixels": 4640
+      }
+    },
+    "routeSegments": 78,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 26,
+    "components": 33,
+    "controlPoints": [
+      [
+        202,
+        105,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        364,
+        384,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        558,
+        424,
+        -109.045,
+        37,
+        "Four Corners"
+      ],
+      [
+        507,
+        218,
+        -111.046,
+        41,
+        "UT/WY corner"
+      ]
+    ],
+    "fitResidualMeters": [
+      4907,
+      7383,
+      8641,
+      6164
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 2305,
+        "classifiedPixels": 90425
+      },
+      "some": {
+        "polygons": 644,
+        "classifiedPixels": 221702
+      },
+      "none": {
+        "polygons": 1559,
+        "classifiedPixels": 86117
+      },
+      "agricultural": {
+        "polygons": 166,
+        "classifiedPixels": 5850
+      },
+      "developed": {
+        "polygons": 17,
+        "classifiedPixels": 461
+      },
+      "service": {
+        "polygons": 32,
+        "classifiedPixels": 8975
+      },
+      "aqueduct": {
+        "polygons": 10,
+        "classifiedPixels": 6909
+      },
+      "delta": {
+        "polygons": 6,
+        "classifiedPixels": 82
+      }
+    },
+    "routeSegments": 33,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 27,
+    "components": 19,
+    "controlPoints": [
+      [
+        96,
+        230,
+        -122.419,
+        37.775,
+        "San Francisco marker"
+      ],
+      [
+        591,
+        70,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        272,
+        464,
+        -121.06,
+        37.06,
+        "San Luis Reservoir"
+      ],
+      [
+        186,
+        62,
+        -122.23,
+        38.59,
+        "Lake Berryessa"
+      ]
+    ],
+    "fitResidualMeters": [
+      1863,
+      582,
+      790,
+      1654
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 29,
+        "classifiedPixels": 34949
+      },
+      "some": {
+        "polygons": 12,
+        "classifiedPixels": 3136
+      },
+      "none": {
+        "polygons": 54,
+        "classifiedPixels": 4578
+      },
+      "agricultural": {
+        "polygons": 28,
+        "classifiedPixels": 572
+      },
+      "service": {
+        "polygons": 29,
+        "classifiedPixels": 21259
+      },
+      "aqueduct": {
+        "polygons": 20,
+        "classifiedPixels": 5109
+      }
+    },
+    "routeSegments": 24,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 28,
+    "components": 67,
+    "controlPoints": [
+      [
+        272,
+        455,
+        -121.988,
+        37.548,
+        "Fremont marker"
+      ],
+      [
+        477,
+        110,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        431,
+        377,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ]
+    ],
+    "fitResidualMeters": [
+      0,
+      0,
+      0
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 980,
+        "classifiedPixels": 44438
+      },
+      "some": {
+        "polygons": 314,
+        "classifiedPixels": 82856
+      },
+      "none": {
+        "polygons": 665,
+        "classifiedPixels": 88112
+      },
+      "agricultural": {
+        "polygons": 262,
+        "classifiedPixels": 23514
+      },
+      "developed": {
+        "polygons": 53,
+        "classifiedPixels": 1669
+      },
+      "service": {
+        "polygons": 11,
+        "classifiedPixels": 4049
+      },
+      "aqueduct": {
+        "polygons": 15,
+        "classifiedPixels": 2820
+      },
+      "delta": {
+        "polygons": 8,
+        "classifiedPixels": 145
+      }
+    },
+    "routeSegments": 23,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 29,
+    "components": 30,
+    "controlPoints": [
+      [
+        387,
+        86,
+        -120,
+        42,
+        "CA/NV/OR corner"
+      ],
+      [
+        361,
+        242,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        558,
+        391,
+        -114.05,
+        37,
+        "NV/UT/AZ corner"
+      ],
+      [
+        506,
+        113,
+        -117,
+        42,
+        "NV/ID/OR corner"
+      ]
+    ],
+    "fitResidualMeters": [
+      15341,
+      10336,
+      6286,
+      11291
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 476,
+        "classifiedPixels": 16235
+      },
+      "some": {
+        "polygons": 157,
+        "classifiedPixels": 25969
+      },
+      "none": {
+        "polygons": 351,
+        "classifiedPixels": 27894
+      },
+      "agricultural": {
+        "polygons": 115,
+        "classifiedPixels": 5787
+      },
+      "developed": {
+        "polygons": 13,
+        "classifiedPixels": 347
+      },
+      "service": {
+        "polygons": 13,
+        "classifiedPixels": 246
+      },
+      "aqueduct": {
+        "polygons": 6,
+        "classifiedPixels": 2932
+      },
+      "delta": {
+        "polygons": 5,
+        "classifiedPixels": 96
+      }
+    },
+    "routeSegments": 15,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 30,
+    "components": 15,
+    "controlPoints": [
+      [
+        357,
+        404,
+        -122.714,
+        38.44,
+        "Santa Rosa marker"
+      ],
+      [
+        475,
+        397,
+        -122.23,
+        38.59,
+        "Lake Berryessa"
+      ],
+      [
+        390,
+        224,
+        -122.76,
+        39.02,
+        "Clear Lake"
+      ],
+      [
+        414,
+        93,
+        -122.96,
+        39.41,
+        "Lake Pillsbury"
+      ]
+    ],
+    "fitResidualMeters": [
+      2355,
+      0,
+      5591,
+      3236
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 274,
+        "classifiedPixels": 10166
+      },
+      "some": {
+        "polygons": 244,
+        "classifiedPixels": 20730
+      },
+      "none": {
+        "polygons": 128,
+        "classifiedPixels": 55969
+      },
+      "agricultural": {
+        "polygons": 67,
+        "classifiedPixels": 2070
+      },
+      "developed": {
+        "polygons": 14,
+        "classifiedPixels": 628
+      },
+      "service": {
+        "polygons": 55,
+        "classifiedPixels": 21709
+      },
+      "aqueduct": {
+        "polygons": 85,
+        "classifiedPixels": 5086
+      }
+    },
+    "routeSegments": 62,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  },
+  {
+    "page": 31,
+    "components": 10,
+    "controlPoints": [
+      [
+        173,
+        353,
+        -121.29,
+        37.958,
+        "Stockton marker"
+      ],
+      [
+        626,
+        70,
+        -120,
+        39,
+        "CA/NV bend in Tahoe"
+      ],
+      [
+        302,
+        80,
+        -121.14,
+        38.71,
+        "Folsom Lake"
+      ],
+      [
+        273,
+        402,
+        -120.93,
+        37.83,
+        "Woodward Reservoir"
+      ]
+    ],
+    "fitResidualMeters": [
+      4696,
+      1518,
+      2279,
+      3934
+    ],
+    "renderScale": 2.5,
+    "categories": {
+      "high": {
+        "polygons": 371,
+        "classifiedPixels": 31638
+      },
+      "some": {
+        "polygons": 188,
+        "classifiedPixels": 69465
+      },
+      "none": {
+        "polygons": 262,
+        "classifiedPixels": 60148
+      },
+      "agricultural": {
+        "polygons": 39,
+        "classifiedPixels": 1053
+      },
+      "developed": {
+        "polygons": 3,
+        "classifiedPixels": 79
+      },
+      "service": {
+        "polygons": 8,
+        "classifiedPixels": 20671
+      }
+    },
+    "routeSegments": 0,
+    "note": "Fit residuals measure agreement with approximate controls, not boundary accuracy. Raster classes and routes are reconstructions of printed artwork. Flow is not inferred."
+  }
+]
